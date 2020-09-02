@@ -44,5 +44,5 @@ app.post('/usuario', function (req, res) {
   })
  
 app.listen(process.env.PORT, ()=>{
-    console.log('Escuchando Puerto: ', process.env.PORT)
+    console.log('Escuchando Puerto: ', process.env.PORT);
 })
